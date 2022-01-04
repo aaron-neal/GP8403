@@ -1,0 +1,23 @@
+{
+    "name": "GP8403",
+    "version": "1.0.0",
+    "keywords": "gp8403,dac,analog,industrial",
+    "description": "An easy to use library for using the Guestgood GP8403 I2C 0-5v/0-10v DAC",
+    "repository":
+    {
+        "type": "git",
+        "url": "https://github.com/porkyneal/GP8403.git"
+    },
+    "authors":{
+        "name":"Aaron Neal",
+        "email":"aaron@aaronneal.co.uk",
+        "maintainer": true
+    },
+    "examples":[{
+        "name": "Basic",
+        "base": "examples/basic",
+        "files": ["basic.ino"]
+    }],
+    "frameworks": ["arduino"],
+    "platforms": "*"
+}
